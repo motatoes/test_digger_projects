@@ -34,7 +34,7 @@ jobs:
           aws-region: us-east-1
           
       - name: digger tfrun
-        uses: diggerhq/tfrun@add-generate-project-config
+        uses: diggerhq/tfrun@check-connection
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
