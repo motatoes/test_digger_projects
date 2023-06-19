@@ -2,5 +2,11 @@ generate_projects:
   include: projects/dev/*
   exclude: projects/dev/test3
   
+auto_merge: true
+projects:
+  name: dev  
+  dir: dev
+
+
 
 
