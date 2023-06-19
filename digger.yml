@@ -1,4 +1,1 @@
 auto_merge: true
-generate_projects:
-  include: projects/dev/*
-  exclude: projects/dev/test3
