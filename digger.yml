@@ -1,4 +1,5 @@
-generate_projects:
-  include: projects/dev/*
-  exclude: projects/dev/test3
+projects:
+- name: dev
+  dir: projects/dev
+
 
